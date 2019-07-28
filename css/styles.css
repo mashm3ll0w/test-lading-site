@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 h2 {
+  font-family: 'Muli', sans-serif;
+}
 .left-half {
   float: left;
   background-color: beige;
