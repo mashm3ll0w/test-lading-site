@@ -1,5 +1,52 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  color: aquamarine;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width:  7px;
+  border-color: lightgrey;
+  width: 7.5%;
+  /* margin: 10px auto 80px auto; */
+}
+
+p{
+  line-height: 2;
+}
+
+.left-half {
+  /* position: relative; */
+  float: left;
+  background-color: beige;
+  width: 50%;
+  height: 600px;
+}
+
+.right-half {
+  /* position: relative; */
+  float: right;
+  background-color: lightgoldenrodyellow;
+  width: 50%;
+  height: 600px;
+}
+
+.profile-pic {
+  margin-top: 20px;
+  position: absolute;
+  right: 540.4px;
+  top: 70px;
+  display: inline;
+  width: 20%;
 }
 
 .my-name {
@@ -7,34 +54,34 @@ body {
   margin: 0;
   position: absolute;
   right: 592px;
-  top: 475px;
+  top: 400px;
   display: inline;
   font-size: 2rem;
 }
 
-h1 h2 {
-  font-family: 'Muli', sans-serif;
-}
-.left-half {
-  float: left;
-  background-color: beige;
-  width: 50%;
-  height: 550px;
+.tagline {
+  position: relative;
+  margin: 0 auto 0 auto;
+  font-size: 2rem;
+  display: inline-block;
+  top: -125px;
 }
 
-.right-half {
-  float: right;
-  background-color: lightgoldenrodyellow;
-  width: 50%;
-  height: 550px;
+.profile-container {
+  margin: 0;
+  /* position: relative; */
 }
 
-img {
-  margin-top: 20px;
-  position: absolute;
-  right: 540.4px;
-  top: 100px;
-  display: inline;
-  width: 20%;
-  border-radius: 100%;
+.joke-p {
+  font-size: 1.5rem;
+  color: darkgrey;
 }
+.joke-hr {
+  margin: 40px auto 40px auto;
+}
+
+.intro {
+  width: 30%;
+}
+
+
