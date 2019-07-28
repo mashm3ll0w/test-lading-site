@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.left-half {
+  float: left;
+  background-color: beige;
+  width: 50%;
+  height: 800px;
+}
+
+.right-half {
+  float: right;
+  background-color: lightgoldenrodyellow;
+  width: 50%;
+  height: 800px;
+}
