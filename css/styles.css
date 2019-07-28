@@ -80,8 +80,14 @@ p{
   margin: 40px auto 40px auto;
 }
 
+.intro-img {
+  width: 10%;
+}
+
 .intro {
-  width: 30%;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  font-size: 1.25rem;
 }
 
 
